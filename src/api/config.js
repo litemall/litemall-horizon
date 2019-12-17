@@ -45,16 +45,16 @@ export function updateOrder(data) {
   })
 }
 
-export function listWx() {
+export function listApollo() {
   return request({
-    url: '/config/wx',
+    url: '/config/apollo',
     method: 'get'
   })
 }
 
-export function updateWx(data) {
+export function updateApollo(data) {
   return request({
-    url: '/config/wx',
+    url: '/config/apollo',
     method: 'post',
     data
   })

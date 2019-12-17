@@ -472,12 +472,12 @@ export const asyncRouterMap = [
         }
       },
       {
-        path: 'wx',
-        component: () => import('@/views/config/wx'),
-        name: 'configWx',
+        path: 'apollo',
+        component: () => import('@/views/config/apollo'),
+        name: 'configApollo',
         meta: {
-          perms: ['GET /admin/config/wx', 'POST /admin/config/wx'],
-          title: '小程序配置',
+          perms: ['GET /admin/config/apollo', 'POST /admin/config/apollo'],
+          title: '前端配置',
           noCache: true
         }
       }
